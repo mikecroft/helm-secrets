@@ -84,7 +84,7 @@ $ helm secrets encrypt examples/sops/secrets.yaml
 Inline encryption is supported, too.
 
 ```
-$ helm secrets decrypt -i examples/sops/secrets.yaml
+$ helm secrets encrypt -i examples/sops/secrets.yaml
 ```
 
 ### Edit
